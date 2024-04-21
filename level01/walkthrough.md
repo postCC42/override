@@ -20,7 +20,8 @@ nope, incorrect username...
    0x08048482 <+30>:	mov    $0x7,%ecx
 
 ```
-- ```
+- 
+```
 (gdb) x/s 0x80486a8
 0x80486a8:	 "dat_wil"
 ```
