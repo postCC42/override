@@ -9,6 +9,7 @@
 ## Ressources
 ### Tools
 - [Decompiler Explorer](https://dogbolt.org/)
+- [Buffer overflow pattern generator](https://wiremask.eu/tools/buffer-overflow-pattern-generator/)
 
 ### Learn
 - [Gestion de la mémoire - hackndo](https://beta.hackndo.com/memory-allocation/)
