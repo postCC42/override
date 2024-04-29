@@ -4,8 +4,9 @@
 - [level00](./level00/walkthrough.md)
 - [level01](./level01/walkthrough.md)
 - [level02](./level02/walkthrough.md)
-- [level3](./level03/walkthrough.md)
+- [level03](./level03/walkthrough.md)
 - [level04](./level04/walkthrough.md)
+- [level05](./level05/walkthrough.md)
 - [level06](./level06/walkthrough.md)
 
 ## Ressources
