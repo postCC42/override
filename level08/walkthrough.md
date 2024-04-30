@@ -9,6 +9,8 @@ previous flag: `7WJ6jFBzrcjEYXudxnM3kdW7n3qyxR6tk2xGrkSC`
 (gdb) x/s 0x400d6d
 0x400d6d:	 "./backups/.log"
 ```
+Summary: 
+The program takes a filename as an argument, opens it for reading, creates a backup file in the ./backups/ directory with the same name as the original file, and writes the contents of the original file to the backup file. It also logs messages to a .log file in the same directory, indicating when it starts and finishes the backup process.
 
 ## vulnerability
 - if we try to pass as argument the hardcoded path we have an error. It seems to be trying to open a file at the given path, but it's failing because the path is relative, not absolute.:

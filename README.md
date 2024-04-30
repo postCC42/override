@@ -9,6 +9,7 @@
 - [level05](./level05/walkthrough.md)
 - [level06](./level06/walkthrough.md)
 - [level07](./level07/walkthrough.md)
+- [level08](./level08/walkthrough.md)
 
 ## Ressources
 ### Tools
