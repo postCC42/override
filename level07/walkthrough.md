@@ -67,6 +67,7 @@ $2 = {<text variable, no debug info>} 0xf7e6aed0 <system>
 - /bin/sh string (0xf7f897ec => 4160264172)
 
 ## Craft the exploit
+```
 |-------------------|
 |   Address of      |   <--- Overwrite with the address of system() array[114]
 |     system()     |
@@ -77,7 +78,7 @@ $2 = {<text variable, no debug info>} 0xf7e6aed0 <system>
 |   Address of      |   <--- Overwrite with the address of "/bin/sh" array[116]
 |   "/bin/sh"      |
 |-------------------|
-
+```
 
 
 We need to set:
