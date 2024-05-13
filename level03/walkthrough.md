@@ -27,7 +27,11 @@ previous flag: `Hh74RPnuQ9sa5JAEXgNWCqz7sXGnh5J5M9KfPg3H`
 
 ## solution
 - since we know that to call /bin/sh in decrypt the result of the suctraction need to be lower than 21, it means that the password - 322424845 <= 21 
-- we have 21 possibilities and test all of them. The right one is 322424827.
+- we have 21 possibilities and test all of them.
+```
+for x in range {322424824..322424845}; do (python -c  "print $x"; cat -) | ./level03 ; done
+```
+- The right one is 322424827.
 ```
 level03@OverRide:~$ ./level03
 ***********************************
